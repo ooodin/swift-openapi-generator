@@ -17,7 +17,8 @@ import PackageDescription
 let package = Package(
     name: "swift-openapi-generator",
     platforms: [
-        .macOS(.v13)
+        .macOS(.v13),
+        .iOS(.v13)
     ],
     products: [
         .executable(name: "swift-openapi-generator", targets: ["swift-openapi-generator"]),
